@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: OrderTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 0.764 s <<< FAILURE! - in OrderTest
+orderCreateNoIngredientsTest(OrderTest)  Time elapsed: 0.151 s  <<< ERROR!
+java.lang.NullPointerException
+	at OrderTest.orderCreateNoIngredientsTest(OrderTest.java:92)
+
+orderCreatePositiveTest(OrderTest)  Time elapsed: 0.172 s  <<< ERROR!
+java.lang.NullPointerException
+	at OrderTest.orderCreatePositiveTest(OrderTest.java:47)
+
+orderCreateInvalidHashTest(OrderTest)  Time elapsed: 0.149 s  <<< ERROR!
+java.lang.NullPointerException
+	at OrderTest.orderCreateInvalidHashTest(OrderTest.java:107)
+

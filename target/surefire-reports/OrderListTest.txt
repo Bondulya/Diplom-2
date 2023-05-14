@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: OrderListTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.522 s <<< FAILURE! - in OrderListTest
+userOrderListNoAuthTest(OrderListTest)  Time elapsed: 0.343 s  <<< ERROR!
+java.lang.NullPointerException
+	at OrderListTest.userOrderListNoAuthTest(OrderListTest.java:73)
+
+userOrderListPositiveTest(OrderListTest)  Time elapsed: 0.175 s  <<< ERROR!
+java.lang.NullPointerException
+	at OrderListTest.userOrderListPositiveTest(OrderListTest.java:43)
+
