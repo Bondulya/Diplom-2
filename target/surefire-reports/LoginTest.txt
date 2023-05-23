@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: LoginTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 4.873 s <<< FAILURE! - in LoginTest
+userLoginSuccessTest(LoginTest)  Time elapsed: 0.208 s  <<< FAILURE!
+java.lang.AssertionError: User login is not successful. Status code is incorrect. expected:<200> but was:<401>
+	at LoginTest.userLoginSuccessTest(LoginTest.java:36)
+

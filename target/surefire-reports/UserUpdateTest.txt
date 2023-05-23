@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: UserUpdateTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.315 s <<< FAILURE! - in UserUpdateTest
+userUpdateSuccessTest(UserUpdateTest)  Time elapsed: 0.141 s  <<< ERROR!
+java.lang.NullPointerException
+	at UserUpdateTest.userUpdateSuccessTest(UserUpdateTest.java:34)
+
